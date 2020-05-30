@@ -245,6 +245,7 @@ while [ $# -gt 0 ]; do
                         )
 
                         if [ "$count" -gt 0 ]; then
+			    echo "THIS IS CALLED!!!!"
                             random=$(( $RANDOM % $count));
 
                             SPOTIFY_PLAY_URI=$( \
